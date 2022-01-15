@@ -45,6 +45,8 @@ class InvestorsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update investor" do
+    new_email = "unique@example.com"
+
     patch investor_url(@investor), params: {
       investor: {
         dob: @investor.dob,
@@ -54,10 +56,12 @@ class InvestorsControllerTest < ActionDispatch::IntegrationTest
         state: @investor.state,
         street_address: @investor.street_address,
         zip_code: @investor.zip_code,
-        email: @investor.email,
+        email: new_email,
       }
     }
+
     assert_redirected_to investor_url(@investor)
+    assert_equal(@investor.reload.email, new_email)
   end
 
   test "should destroy investor" do
