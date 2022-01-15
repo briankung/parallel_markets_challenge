@@ -15,6 +15,7 @@ class InvestorsTest < ApplicationSystemTestCase
     click_on "New investor"
 
     fill_in "Dob", with: @investor.dob
+    fill_in "Email", with: @investor.email
     fill_in "First name", with: @investor.first_name
     fill_in "Last name", with: @investor.last_name
     fill_in "Phone number", with: @investor.phone_number
@@ -32,6 +33,7 @@ class InvestorsTest < ApplicationSystemTestCase
     click_on "Edit this investor", match: :first
 
     fill_in "Dob", with: @investor.dob
+    fill_in "Email", with: @investor.email
     fill_in "First name", with: @investor.first_name
     fill_in "Last name", with: @investor.last_name
     fill_in "Phone number", with: @investor.phone_number
