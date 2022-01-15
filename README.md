@@ -39,3 +39,5 @@ After getting the basics done, I was hoping to work on authentication with Devis
 Thankfully I was bothered enough by the one failing test to investigate what was happening - despite some default system tests passing with the broken user flow! It would have been terribly embarrassing to send it off saying "it works!" Another win for testing.
 
 A bit disappointing I didn't get more of the stretch goals, but here we are at 2.5 hours, so off we go.
+
+EDIT - If I had known that Devise would eat up all my time, I would have made the interface nicer first - validate zip codes, states, the like.
