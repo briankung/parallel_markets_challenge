@@ -8,7 +8,6 @@ one:
   street_address: MyString
   state: MyString
   zip_code: MyString
-  email: one@example.com
 
 two:
   first_name: MyString
@@ -18,4 +17,3 @@ two:
   street_address: MyString
   state: MyString
   zip_code: MyString
-  email: two@example.com

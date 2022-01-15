@@ -12,7 +12,7 @@ You can install the appropriate version of Ruby through your favorite Ruby versi
 
 ### Usage
 
-1. Get the server started with `$ bin/rails server` - right now the code base only supports the default port 3000
+1. Get the server started with `$ bin/rails server`
 1. Visit `localhost:3000/investors`
 1. Click "New investor"
 1. Input investor information, including a photo. Note the photo is not required, but everything else is.
@@ -25,8 +25,8 @@ You can install the appropriate version of Ruby through your favorite Ruby versi
 
 ## Extra points
 
-- [x] Fully documenting both what you were able to complete and what you would want to do additionally if you had more time
-- [x] A full git history showing your development style.
+- [ ] Fully documenting both what you were able to complete and what you would want to do additionally if you had more time
+- [ ] A full git history showing your development style.
 - [ ] Authentication and authorization capabilities
 - [ ] Support for files larger than 3MB (upload progress indicator, etc)
 - [ ] Detecting and handling updating addresses for existing customers with matching names/SSNs
