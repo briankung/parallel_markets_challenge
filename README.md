@@ -31,3 +31,11 @@ You can install the appropriate version of Ruby through your favorite Ruby versi
 - [x] Support for files larger than 3MB (upload progress indicator, etc)
 - [ ] Detecting and handling updating addresses for existing customers with matching names/SSNs
 - [x] Tests
+
+## Conclusion
+
+After getting the basics done, I was hoping to work on authentication with Devise next. Unfortunately got a bit caught up in configuring Devise. I should have used basic authentication instead! It ended up being slower rather than faster to implement using Devise. I think the issue is that I wasn't aware of *all* of the configuration I needed to do (aware: db, config files, controller strong parameters; unaware: playing nice with turbolinks, Devise controller override failures, which link helpers to use). I finally got all the data to go through the forms to the Devise RegistrationsController when I tried to change the "New Investor" links on the Investor Index page and some fancy turbolinks feature wouldn't let the page load. That was the straw that broke this camel's back.🐫
+
+Thankfully I was bothered enough by the one failing test to investigate what was happening - despite some default system tests passing with the broken user flow! It would have been terribly embarrassing to send it off saying "it works!" Another win for testing.
+
+A bit disappointing I didn't get more of the stretch goals, but here we are at 2.5 hours, so off we go.
