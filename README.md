@@ -20,6 +20,12 @@ The investor information that should be accepted (along with at least 1 file for
 
 Please include detailed instructions in a README file describing in full the process to setup/install any prerequisite software, initialize the relational database, and run the web application.
 
+## Todo
+
+- [x] Investor scaffold
+- [ ] File upload
+- [ ] Update README to setup and install server
+
 ## Submission
 Please email [dev-admin@parallelmarkets.com](mailto:dev-admin@parallelmarkets.com) with one of the following:
 1. The URL of a public Github or Gitlab repository that contains your code and instructions.
