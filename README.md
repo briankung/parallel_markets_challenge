@@ -22,3 +22,12 @@ You can install the appropriate version of Ruby through your favorite Ruby versi
 - [x] Investor scaffold
 - [x] File upload
 - [x] Update README to setup and install server
+
+## Extra points
+
+- [ ] Fully documenting both what you were able to complete and what you would want to do additionally if you had more time
+- [ ] A full git history showing your development style.
+- [ ] Authentication and authorization capabilities
+- [ ] Support for files larger than 3MB (upload progress indicator, etc)
+- [ ] Detecting and handling updating addresses for existing customers with matching names/SSNs
+- [ ] Tests
