@@ -1,0 +1,42 @@
+<div id="<%= dom_id investor %>">
+  <p>
+    <strong>First name:</strong>
+    <%= investor.first_name %>
+  </p>
+
+  <p>
+    <strong>Last name:</strong>
+    <%= investor.last_name %>
+  </p>
+
+  <p>
+    <strong>Dob:</strong>
+    <%= investor.dob %>
+  </p>
+
+  <p>
+    <strong>Phone number:</strong>
+    <%= investor.phone_number %>
+  </p>
+
+  <p>
+    <strong>Street address:</strong>
+    <%= investor.street_address %>
+  </p>
+
+  <p>
+    <strong>State:</strong>
+    <%= investor.state %>
+  </p>
+
+  <p>
+    <strong>Zip code:</strong>
+    <%= investor.zip_code %>
+  </p>
+
+  <p>
+    <strong>Photo identification:</strong>
+    <%= link_to investor.photo_identification.filename, investor.photo_identification if investor.photo_identification.attached? %>
+  </p>
+
+</div>
