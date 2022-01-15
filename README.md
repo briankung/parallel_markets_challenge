@@ -25,9 +25,9 @@ You can install the appropriate version of Ruby through your favorite Ruby versi
 
 ## Extra points
 
-- [ ] Fully documenting both what you were able to complete and what you would want to do additionally if you had more time
-- [ ] A full git history showing your development style.
+- [x] Fully documenting both what you were able to complete and what you would want to do additionally if you had more time
+- [x] A full git history showing your development style.
 - [ ] Authentication and authorization capabilities
-- [ ] Support for files larger than 3MB (upload progress indicator, etc)
+- [x] Support for files larger than 3MB (upload progress indicator, etc)
 - [ ] Detecting and handling updating addresses for existing customers with matching names/SSNs
-- [ ] Tests
+- [x] Tests
